@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="parallelsuite" thread-count="2" parallel="tests">
+	<test name="paralleltest">
+		
+		<parameter name="browser" value="chrome"/>    
+	    		
+	    		<classes>
+            		<class name="com.test.parallel.ParallelTest1"/>
+        		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+/bin/
+/target/
+.DS_Store
+.classpath
+.project
+.settings/
+Reports/
+test-output/
+*.class
+*.log
+*.jar
+.idea/
+*.iml
+src/.DS_Store
+testdata/local*
