@@ -15,8 +15,9 @@ public class ParallelExecutionTest {
 	
 	WebDriver driver;
 	
-	@BeforeClass
+	
 	@Parameters("browser")
+	@BeforeClass
 	void setUp(String br)
 	{
 		
