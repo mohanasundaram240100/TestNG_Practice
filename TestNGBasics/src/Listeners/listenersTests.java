@@ -30,7 +30,7 @@ public class listenersTests {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, dependsOnMethods="setUp")
 	void testLogo()
 	{
 		boolean logo= driver.findElement(By.xpath("//div[@id=\"block-sitebranding\"]")).isDisplayed();
