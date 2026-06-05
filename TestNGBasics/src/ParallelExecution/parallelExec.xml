@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="parallelsuite" thread-count="2" parallel="tests">
+<suite name="parallelsuite" thread-count="3" parallel="tests">
 	<test name="paralleltest">
 		
 		<parameter name="browser" value="chrome"/>    
