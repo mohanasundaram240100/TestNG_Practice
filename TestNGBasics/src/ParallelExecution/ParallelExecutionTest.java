@@ -18,13 +18,13 @@ public class ParallelExecutionTest {
 	
 	@Parameters("browser")
 	@BeforeClass
-	void setUp(String br)
+	void setUp(String browsers)
 	{
 		
-		switch(br.toLowerCase())
+		switch(browsers.toLowerCase())
 		{
 		case "chrome": driver=new ChromeDriver(); break;
-		case "edge" : driver=new EdgeDriver(); break;
+		case "edge"  : driver=new EdgeDriver(); break;
 		default : System.out.println("Invalid Browser");
 		return;
 		
